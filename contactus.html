@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My AWS Project</title>
+</head>
+<body>
+
+  <h1>Welcome to my AWS Project</h1>
+
+  <h2>Contact Us</h2>
+  
+  <!-- The form still points to your AWS backend -->
+  <form action="/dev" method="post">
+    
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <!-- Updated to type="email" for basic browser validation -->
+    <label for="email">Email ID:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    
+  </form>
+
+  <br>
+  <hr> <!-- Adds a simple horizontal line -->
+  <p>AWS Project by Vivekanand Sidu</p>
+
+</body>
+</html>
