@@ -45,7 +45,7 @@ Now, we set up the database table to store the form submissions.
 
 1. Navigate to the **DynamoDB** dashboard.
 2. Click **Create Table**.
-3. Set the **Table name** to `vivek table`.
+3. Set the **Table name** to `vivektable`.
 4. Set the **Partition key** to `email` (String).
 5. Leave the **Table settings** on **Default settings**.
 6. Click **Create Table**.
